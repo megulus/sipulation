@@ -1,0 +1,23 @@
+{
+  "name": "sipulation",
+  "version": "1.0.0",
+  "description": "Toy app with an utterly ridiculous premise - a sandbox to learn TypeScript and Event Sourcing patterns.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.8.2"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megulus/sipulation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megulus/sipulation/issues"
+  },
+  "homepage": "https://github.com/megulus/sipulation#readme"
+}
