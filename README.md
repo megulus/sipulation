@@ -1,2 +1,2 @@
 # sipulation
-Toy app with an utterly ridiculous premise - an excuse to learn TypeScript and Event Sourcing patterns.
+Toy app with an utterly ridiculous premise - a sandbox to learn TypeScript and Event Sourcing patterns.
