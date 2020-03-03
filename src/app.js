@@ -2,6 +2,7 @@ import express from 'express'
 import bodyParser from 'body-parser'
 
 const app = express()
+const db = require('../data/db-config')
 const port = 8080
 
 app
