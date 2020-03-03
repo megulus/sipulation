@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "description": "Toy app with an utterly ridiculous premise - a sandbox to learn TypeScript and Event Sourcing patterns.",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "knex": "^0.20.10",
+    "sqlite3": "^4.1.1"
+  },
   "devDependencies": {
+    "nodemon": "^2.0.2",
     "typescript": "^3.8.2"
   },
   "scripts": {
+    "start": "nodemon -r esm src/app.js",
     "tsc": "tsc"
   },
   "repository": {
